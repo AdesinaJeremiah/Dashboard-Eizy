@@ -243,46 +243,6 @@ body {
   cursor: pointer;
 }
 
-.dollar-wallet::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  border-radius: inherit;
-  padding: 2px;
-
-  background: conic-gradient(
-    from 0deg,
-    transparent 0deg,
-    #487efc 60deg,
-    transparent 120deg,
-    #487efc 180deg,
-    transparent 240deg,
-    #487efc 300deg,
-    transparent 360deg
-  );
-
-  animation: spin 3s linear infinite;
-  z-index: -2;
-
-  filter: blur(6px);
-  opacity: 1;
-}
-
-.dollar-wallet:after {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #fff;
-  border-radius: inherit;
-  z-index: -1;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .euro-wallet {
   width: 50%;
   height: auto;
@@ -339,46 +299,6 @@ body {
 
 .euro-wallet-balance-right {
   cursor: pointer;
-}
-
-.euro-wallet::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  border-radius: inherit;
-  padding: 2px;
-
-  background: conic-gradient(
-    from 0deg,
-    transparent 0deg,
-    #487efc 60deg,
-    transparent 120deg,
-    #487efc 180deg,
-    transparent 240deg,
-    #487efc 300deg,
-    transparent 360deg
-  );
-
-  animation: spin 3s linear infinite;
-  z-index: -2;
-
-  filter: blur(6px);
-  opacity: 1;
-}
-
-.euro-wallet:after {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #fff;
-  border-radius: inherit;
-  z-index: -1;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .transactions {
@@ -463,46 +383,6 @@ body {
   overflow: hidden;
   position: relative;
   padding: 1rem;
-}
-
-.left-cont::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  border-radius: inherit;
-  padding: 2px;
-
-  background: conic-gradient(
-    from 0deg,
-    transparent 0deg,
-    #487efc 60deg,
-    transparent 120deg,
-    #487efc 180deg,
-    transparent 240deg,
-    #487efc 300deg,
-    transparent 360deg
-  );
-
-  animation: spin 3s linear infinite;
-  z-index: -2;
-
-  filter: blur(6px);
-  opacity: 1;
-}
-
-.left-cont:after {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #fff;
-  border-radius: inherit;
-  z-index: -1;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .account-left {
@@ -1031,46 +911,6 @@ body {
     bottom: 0;
     overflow: hidden;
     z-index: 1;
-  }
-
-  .footer::before {
-    content: "";
-    position: absolute;
-    inset: -2px;
-    border-radius: inherit;
-    padding: 2px;
-
-    background: conic-gradient(
-      from 0deg,
-      transparent 0deg,
-      #487efc 60deg,
-      transparent 120deg,
-      #487efc 180deg,
-      transparent 240deg,
-      #487efc 300deg,
-      transparent 360deg
-    );
-
-    animation: spin 3s linear infinite;
-    z-index: -2;
-
-    filter: blur(6px);
-    opacity: 1;
-  }
-
-  .footer:after {
-    content: "";
-    position: absolute;
-    inset: 2px;
-    background: #fff;
-    border-radius: inherit;
-    z-index: -1;
-  }
-
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
   }
 
   .footer-content {
